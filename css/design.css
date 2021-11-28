@@ -1,0 +1,34 @@
+
+
+*{margin: 0px; padding:0px}
+#main{background-color:#e6e0e0; }
+.container{ width: 900px; margin: auto;border: 1px solid black; }
+.w{overflow: hidden;}
+.phone{float: left; width:200px ; padding: 15px 10px; border-left: 1px solid rgb(218, 204, 204); border-right: 1px solid rgb(218, 204, 204);}
+.email{float: left; width: 519px;padding: 15px 10px;}
+.social{ width: 140px;}
+i {display:block; float: left; padding: 15px; border-left:1px solid rgb(218, 204, 204) ; }
+.social a:last-child{border-right: 1px solid rgb(218, 204, 204);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
