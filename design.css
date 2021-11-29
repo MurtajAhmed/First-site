@@ -478,6 +478,7 @@ input{outline: none;}
      button{ width: 100px; padding-top:8px;padding-bottom:8px; letter-spacing:.3px; font-size: 13px; word-spacing: 2px; }
     #sbutton {left: 220px; width: 80px}
     .bs{width:310px}
+    .s5thsbox{width: 100%;}
     .s5thsbox img{width: 100% !important;}
 }
 
