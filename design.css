@@ -474,7 +474,7 @@ input{outline: none;}
 
 @media all and (max-width:375px){
     .container{width:360px;margin: auto;order:1px solid rgb(255, 0, 0);}
-    .bar{ margin-left:269px;}
+    .bar{ margin-left:px;}
      button{ width: 100px; padding-top:8px;padding-bottom:8px; letter-spacing:.3px; font-size: 13px; word-spacing: 2px; }
     #sbutton {left: 220px; width: 80px}
     .bs{width:310px}
