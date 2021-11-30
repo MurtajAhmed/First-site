@@ -49,8 +49,8 @@ nav ul.sub li{padding-left: 20px;width: 160px;}
 .nav2{display:none;}
 .nopadding{width:16.7px;margin-top: 3.4px}
 .searchbox{width: 280px;height: 93px; border-top:3px solid #ff5200 ;border-radius: 2px; font-family:'Oswald',sans-serif ; display: grid;place-items: center; background-color: rgb(255, 255, 255);position: absolute;right:0%;top: 60px; z-index: 1;}
-.searchbox input{width: 240px;font-weight: bold; height: 40px; color: rgb(20, 20, 20);padding: 7px 40px 7px 15px;font-size: 14px;border: 1px solid #e0e0e0;outline: none; border-radius: 3px;line-height: 24px;text-transform: ;}
-.searchbox i{position: absolute; width: 44px;height: 40px; background: #ff5200;font-size: 14px;justify-content: center;align-items: center;color: rgb(240, 240, 240); display: flex;right: 20px;border-radius: 2px}
+.searchbox input{width: 210px;font-weight: bold; height: 24px; color: rgb(20, 20, 20);padding: 7px 40px 7px 15px;font-size: 14px;border: 1px solid #e0e0e0;outline: none; border-radius: 3px;line-height: 24px;text-transform: ;}
+.searchbox i{position: absolute; width: 44px;height: 40px; background: #ff5200;font-size: 14px;justify-content: center;align-items: center;color: rgb(240, 240, 240); display: flex;right: 7px;border-radius: 2px}
 .searchboxtwo{width: 280px;height: 88px; border-top:3px solid #ff5200 ;border-radius: 2px; font-family:'Oswald',sans-serif ; display: grid;place-items: center; background-color: rgb(255, 255, 255);position: absolute;right:;top:70px; z-index: 2;}
 .searchboxtwo input{width: 240px;height: 35px;font-weight: bold; color: rgb(20, 20, 20);padding: 7px 40px 7px 15px;font-size: 14px;border: 1px solid #e0e0e0;outline: none; border-radius: 3px;line-height: 24px;text-transform: ;}
 .searchboxtwo i{position: absolute; width: 35px;height: 35px; background: #ff5200;font-size: 5px;justify-content: center;align-items: center;color: rgb(240, 240, 240); display: flex;bottom:26px;right: 21px; border-radius: 2px}
@@ -151,7 +151,7 @@ button:hover{background:#202020;cursor: pointer;transition:0.4s;}
 
 .s4th{margin-top: 60px; background-position: 100%; background: linear-gradient(rgba(44, 44, 44, 0.644),rgba(44, 44, 44, 0.644)),url(img/why-choose-us1.jpg);background-repeat: no-repeat; background-size: cover;}
 .data{overflow: hidden;width: 100%;height: 363px;}
-.dnumber{color:rgba(247, 247, 247, 0.952); float: left;  text-align: center; margin: 100px 67px 100px 0px !important ;}
+.dnumber{color:rgba(247, 247, 247, 0.952); float: left;  text-align: center; margin: 100px 137px 100px 0px !important ;}
 .dnumber i{font-size: 50px; padding-bottom: 15px;}
 .dnumber h2{font-size: 50px; font-family: 'work sans',sans-serif; padding-bottom: 10px;}
 .dnumber h3{font-size: 22px; text-transform: uppercase; font-family:'Oswald',sans-serif;}
@@ -279,7 +279,7 @@ input{outline: none;}
 .s11thsbox h3{font-family:'oswald',sans-serif; font-size: 20px; padding-bottom: 15px;}
 .s11thsbox:first-child{padding-left: 40px;  position: relative;}
 .s11thsbox:first-child input{padding: 10px 5px; font-family: 'work sans',sans-serif; font-weight: 400; padding:11.5px 112px 11.5px 15px; font-size: 14px; border-radius: 50px; border: none;}
-#sbutton{font-weight: 600; font-size: 16px;padding: 0px; padding: 0px 17px; height:38.4px; position: absolute; left: 231px;  background: black; color: white;border: none;outline: none;}
+#sbutton{font-weight: 600; font-size: 16px;padding: 0px; padding: 0px 17px; height:38.4px; position: absolute; left: 240px;  background: black; color: white;border: none;outline: none;}
 #sbutton:hover{cursor: pointer;}
 .s11thsbox:nth-child(2) p{font-family: 'work sans',sans-serif; padding-bottom: 5px;font-weight: 400;}
 .s11thsbox:last-child i{  font-weight: 500; width: 35px; height: 35px; border: 1px solid rgb(255, 255, 255); border-radius: 100%; margin-right: 10px; display: grid; place-items: center; float: left;}
@@ -344,6 +344,12 @@ input{outline: none;}
      #ir{position: absolute;right:103px;width: 30px;height: 30px;border: 1px solid rgb(65, 65, 65); bottom:5px;      display: flex;align-items: center; justify-content: center;}
      #ir2{position: relative;float:right; right:0%;width: 27px;height: 27px;border: 1px solid rgb(65, 65, 65); bottom:5px;      display: flex;align-items: center; justify-content: center;}
     .sub2{display:none; position: ;}
+    .searchboxtwo input {
+        width: 210px;
+        height: 20px;}
+        .searchboxtwo i {
+            right: 8px;
+        }
     #subthree,#subfour{position: relative;float:right; right:0%;width: 27px;height: 27px;border: 1px solid rgb(65, 65, 65); bottom:5px;      display: flex;align-items: center; justify-content: center;}
     .container{width: 690px;margin: auto;order:1px solid rgb(255, 0, 0);}
     .praimarymenu{height: 70px;}
