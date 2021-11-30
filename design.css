@@ -476,11 +476,13 @@ input{outline: none;}
     .container{width:360px;margin: auto;order:1px solid rgb(255, 0, 0);}
     .bar{ margin-left:319px;margin-bottom: -7px;}
      button{ width: 100px; padding-top:8px;padding-bottom:8px; letter-spacing:.3px; font-size: 13px; word-spacing: 2px; }
-    #sbutton {left: 220px; width: 80px}
+    #sbutton {left: 220px; width: 80px;height: 39px;}
     .bs{width:310px}
-    .s5thsbox{width: 100%;}
+    .s5thsbox{width: 360px;}
     .s5thsbox img{width: 100% !important;}
-
+    .s5thsbox p {
+        width: 100%;
+    }
 
     .searchboxtwo {
         width: 230px;
@@ -493,9 +495,28 @@ input{outline: none;}
     }
     .searchboxtwo i {
         height: 35px;
-        bottom: 16px;
-        right: 8px;
+        bottom: 15px;
+        right: 7px;
     }
+    .sbox {
+        margin: 30px 50.3px 45px 0px;
+    }
+
+    .s8thsbox {
+        width: 356px;
+        margin: auto;
+        float: none;
+        margin-bottom: 30px;
+        box-shadow: 0px 0px 5px 0px rgb(41 41 41);
+    }
+    .s11thsbox:first-child input {
+        width: 150px;
+    }
+
+   
+
+
+
 
 }
 
