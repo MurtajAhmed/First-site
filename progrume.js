@@ -1,6 +1,17 @@
 jQuery(document).ready(function(){
 
-    //     praimarymenue will be fixed on the top by scrolling      //
+  //    Page will be scrollTop:"0" by clicking Scroll-btn     //
+  jQuery(".bi").click(function(){
+    jQuery("body").animate({scrollTop : 0},4000);//.scrollTop(0); etio kaj kore but time set korte parini.
+    }); 
+  
+  
+  
+  
+  
+  
+  
+  //     praimarymenue will be fixed on the top by scrolling      //
     jQuery(window).scroll(function () {
       var scroll=jQuery(window).scrollTop();
         if(scroll > 100){
@@ -359,10 +370,7 @@ jQuery(document).ready(function(){
     
     
     
-    //    Page will be scrollTop:"0" by clicking Scroll-btn     //
-    jQuery(".bi").click(function(){
-      jQuery("body").animate({scrollTop : 0},4000,);//.scrollTop(0); etio kaj kore but time set korte parini.
-      });
+    
     
     
     
