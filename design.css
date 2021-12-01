@@ -37,10 +37,10 @@
 .logo{width: 150px; float: left;  margin-top: 20px; margin-bottom: 20px;}
 .logo img{width: 100%;}
 .praimarymenu{width:100%;height: 96px;}
-nav{float: right; margin-top: 35px; }
+nav{float: right; margin-top: 42.5px; }
 nav ul{border-radius: 2px;}
 nav li{list-style: none; position: relative; height:40px;float: left;padding-left: 40px;}
-nav li a{width:100%;height: 100%; text-decoration: none;font-weight: bold; letter-spacing: .7px; font-family: 'Oswald',sans-serif; text-transform: uppercase;display: block;color: rgba(48, 44, 44, 0.87);}
+nav li a{width:100%;height: 100%; text-decoration: none;font-weight:; letter-spacing: .8px; font-family: 'Oswald',sans-serif; text-transform: uppercase;display: block;color: rgba(48, 44, 44, 0.87);}
 nav li a:hover{color: #ff5200;transition:.3s }
 nav ul.sub{position: absolute;display:none ;z-index: 1;padding-top: 15px;background-color: rgb(255, 255, 255);}
 nav ul.sub li ul.sub {top:0;left:100%;}
