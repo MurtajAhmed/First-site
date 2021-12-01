@@ -47,8 +47,8 @@ nav ul.sub li ul.sub {top:0;left:100%;}
 nav ul.sub li a{width:100%; padding-left:; }
 nav ul.sub li{padding-left: 20px;width: 160px;}
 .nav2{display:none;}
-.nopadding{width:16.7px;margin-top: 3.4px}
-.searchbox{width: 280px;height: 93px; border-top:3px solid #ff5200 ;border-radius: 2px; font-family:'Oswald',sans-serif ; display: grid;place-items: center; background-color: rgb(255, 255, 255);position: absolute;right:0%;top: 60px; z-index: 1;}
+.nopadding{width:16.7px;margin-top:px}
+.searchbox{width: 280px;height: 93px; border-top:3px solid #ff5200 ;border-radius: 2px; font-family:'Oswald',sans-serif ; display: grid;place-items: center; background-color: rgb(255, 255, 255);position: absolute;right:0%;top:53px !important; z-index: 1;}
 .searchbox input{width: 210px;font-weight: bold; height: 24px; color: rgb(20, 20, 20);padding: 7px 40px 7px 15px;font-size: 14px;border: 1px solid #e0e0e0;outline: none; border-radius: 3px;line-height: 24px;text-transform: ;}
 .searchbox i{position: absolute; width: 44px;height: 40px; background: #ff5200;font-size: 14px;justify-content: center;align-items: center;color: rgb(240, 240, 240); display: flex;right: 7px;border-radius: 2px}
 .searchboxtwo{width: 280px;height: 88px; border-top:3px solid #ff5200 ;border-radius: 2px; font-family:'Oswald',sans-serif ; display: grid;place-items: center; background-color: rgb(255, 255, 255);position: absolute;right:;top:70px; z-index: 2;}
