@@ -1,15 +1,25 @@
 jQuery(document).ready(function(){
 
   //    Page will be scrollTop:"0" by clicking Scroll-btn     //
-  jQuery(".bi").click(function(){
-    jQuery("body").animate({scrollTop : 0},4000);//.scrollTop(0); etio kaj kore but time set korte parini.
-    }); 
+  // jQuery(".bi").click(function(){
+  //   jQuery("body").animate({scrollTop : 0},4000);//.scrollTop(0); etio kaj kore but time set korte parini.
+  //   }); 
+let sct=document.querySelector('.bi');
+sct.addEventListener('click', ()=>{
+  window.scrollTo({
+    top:0,
+    left:0,
+    behavior:"smooth"
+  });
+});
+
+
+
+
+
+
   
-  
-  
-  
-  
-  
+
   
   //     praimarymenue will be fixed on the top by scrolling      //
     jQuery(window).scroll(function () {
